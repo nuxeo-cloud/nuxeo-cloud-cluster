@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.cloud.cluster.api.ClusterService">
+
+  <implementation class="org.nuxeo.cloud.cluster.impl.ClusterServiceComponent" />
+
+  <service>
+    <provide interface="org.nuxeo.cloud.cluster.api.ClusterService" />
+  </service>
+</component>

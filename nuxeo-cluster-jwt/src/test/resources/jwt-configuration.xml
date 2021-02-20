@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.cluster.cloud.JWTService.test.config">
+
+  <extension target="org.nuxeo.cloud.cluster.JWTService"
+    point="configuration">
+    <configuration>
+      <defaultTTL>120</defaultTTL>
+      <maxTTL>120</maxTTL>
+      <secretLength>45</secretLength>
+    </configuration>
+  </extension>
+
+</component>
